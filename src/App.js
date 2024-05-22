@@ -7,12 +7,12 @@ import {
 import HomePage from "./pages/Home";
 import ProductsPage from "./pages/Products";
 
-// const routesDefinition = createRoutesFromElements(
-//   <Route>
-//     <Route path="/" element={<HomePage />} />
-//     <Route path="/products" element={<ProductsPage />} />
-//   </Route>
-// );
+/* const routesDefinition = createRoutesFromElements(
+  <Route>
+    <Route path="/" element={<HomePage />} />
+    <Route path="/products" element={<ProductsPage />} />
+  </Route>
+); */
 
 const router = createBrowserRouter([
   { path: "/", element: <HomePage /> },
